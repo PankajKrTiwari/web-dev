@@ -1,0 +1,48 @@
+body{
+    font-family: cursive;
+    text-align: center;
+    background: #e4fbff;
+}
+button,input{
+    font-family: cursive;
+    margin: 4px;
+    text-align: center;
+    border-radius: 10px/8px;
+    border-color: lightblue;
+    outline: none;
+    background-color: white;
+}
+#msg{
+    font-size: small;
+}
+ol{
+    text-align: center;
+}
+li{
+    list-style: none;
+    background:white;
+    border-radius: 10px;
+    margin: 4px;
+    width: 200px;
+    border-color: lightblue;
+}
+@media (max-width:400px){
+    div ol{
+        display: inline-block;
+        margin-left: -8%;
+    }
+}
+@media(max-width:990px){
+    div ol{
+        display: inline-block;
+        align-content: center;
+        margin-left: -5%;
+    }
+}
+@media (min-width:1000px){
+    div ol{
+        display: inline-block;
+        align-content: center;
+        margin-left: -3%;
+    }
+}
